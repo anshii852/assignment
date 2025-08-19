@@ -1,19 +1,10 @@
-# Swapping two variables
+# Initial values
+a = 10
+b = 20
 
-a = 5
-b = 10
+print("Before swapping: a =", a, "b =", b)
 
-# Before swapping
-print("Before swapping:")
-print("a =", a)
-print("b =", b)
+# Swap using tuple unpacking
+a, b = b, a
 
-# Swapping using a temporary variable
-temp = a
-a = b
-b = temp
-
-# After swapping
-print("After swapping:")
-print("a =", a)
-print("b =", b)
+print("After swapping: a =", a, "b =", b)
